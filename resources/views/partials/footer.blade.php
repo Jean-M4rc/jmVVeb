@@ -7,12 +7,10 @@
 
         <div class="d-flex justify-content-around flex-wrap">
                 
-            
-            <figure><a href="">                
+            <figure><a href="https://www.linkedin.com/in/jean-marc-voisin-622b09152/" target="_blank">                
                 <img src="storage/icones/Linkedin.svg" alt="LinkedIn" style="width:10rem;">
                 <figcaption class="h4 text-center font-weight-bold pt-2">Mon LinkedIn</figcaption>
             </a></figure>
-            
 
             <figure><a href="">
                 <img src="storage/icones/list.svg" alt="Curriculum Vitae" style="width:10rem;">
