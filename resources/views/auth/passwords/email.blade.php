@@ -24,7 +24,7 @@
 
             {{ csrf_field() }}
 
-            @include('partials.form-group', [
+            @include('components.form-group', [
 
                 'title' => __('Adresse email'),
                 'type' => 'email',

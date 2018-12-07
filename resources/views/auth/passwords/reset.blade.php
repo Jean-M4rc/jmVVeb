@@ -16,21 +16,21 @@
 
             <input type="hidden" name="token" value="{{ $token }}">
 
-            @include('partials.form-group', [
+            @include('components.form-group', [
                 'title' => __('Adresse email'),
                 'type' => 'email',
                 'name' => 'email',
                 'required' => true,
                 ])
 
-            @include('partials.form-group', [
+            @include('components.form-group', [
                 'title' => __('Mot de passe'),
                 'type' => 'password',
                 'name' => 'password',
                 'required' => true,
                 ])
 
-            @include('partials.form-group', [
+            @include('components.form-group', [
                 'title' => __('Confirmation du mot de passe'),
                 'type' => 'password',
                 'name' => 'password_confirmation',

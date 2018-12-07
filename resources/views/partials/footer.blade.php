@@ -1,6 +1,7 @@
 <div class="bg-white py-3">
 
     <h2 class="text-center py-2">Me Contacter</h2>
+
     <hr>
 
     <div class="container py-3">
@@ -27,9 +28,7 @@
     </div>
     
     <div class="d-flex justify-content-center">
-        <p class="lead pb-0 pt-3 mb-0">
-        Réalisé par Jean-Marc Voisin - 2018
-        <p>
+        <p class="lead pb-0 pt-3 mb-0">Réalisé par Jean-Marc Voisin - 2018<p>
     </div>
 
 </div>
