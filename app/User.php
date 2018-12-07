@@ -27,4 +27,12 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /**
+     * Get the comments
+     */
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
 }
