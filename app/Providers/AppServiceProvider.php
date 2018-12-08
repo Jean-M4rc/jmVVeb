@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Blade;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,4 +26,17 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
+    /**
+     * we can use @admin on view
+     */
+    public function boot()
+    {
+
+    Blade::if('admin', function () {
+        return auth()->check() && auth()->user()->admin;
+    });
+
+    }   
+
 }
