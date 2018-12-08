@@ -39,7 +39,7 @@ class ProjectController extends Controller
     {
         $repository->store($request->all());
 
-        return redirect()->route('/')->with('ok', __('Le projet a bien été ajouté'));
+        return redirect()->route('welcome')->with('ok', __('Le projet a bien été ajouté'));
     }
 
     /**
