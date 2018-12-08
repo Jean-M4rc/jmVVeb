@@ -17,7 +17,6 @@ class CreateProjectsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('slug')->unique();
-            $table->integer('countComment')->unsigned()->default('0');
             $table->timestamps();
         });
     }
