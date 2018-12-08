@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
+
+Route::middleware('admin')->group(function () {
+    Route::resource ('project', 'ProjectController', [
+        'except' => 'show'
+    ]);
+});

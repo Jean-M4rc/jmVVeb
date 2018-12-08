@@ -25,6 +25,7 @@
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="favicon.ico" class="rounded" width="30" height="30" alt=""/>
                 {{ config('app.name', 'Laravel') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -34,7 +35,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
-
+                    @admin
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle{{ currentRoute(route('project.create'))}}" href="#" id="navbarDropdownGestCat" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Administration
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownGestCat">
+                            <a class="dropdown-item" href="{{ route('project.create') }}">
+                                <i class="fas fa-plus fa-lg"></i>
+                                Ajouter un projet
+                            </a>
+                        </div>
+                    </li>
+                    @endadmin
                 </ul>
 
                 <!-- Right Side Of Navbar -->
