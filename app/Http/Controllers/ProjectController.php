@@ -40,7 +40,13 @@ class ProjectController extends Controller
     {
         $project = $repository->store($request->all());
 
-        Storage::put( $project->slug . '.blade.php', '/resources/views/projects/');
+        // Création d'une vue prévue pour le projet fraîchement créé.
+
+            $file = '\projects\\' . $project->slug . '.blade.php';
+
+            $content = "@extends('layouts.app')";
+
+            Storage::disk('views')->put($file, $content);
 
         return redirect()->route('welcome')->with('ok', __('Le projet a bien été ajouté'));
     }
