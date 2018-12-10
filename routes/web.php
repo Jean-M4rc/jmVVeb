@@ -13,7 +13,7 @@
 
 Route::get('/', 'ProjectController@index')->name('welcome');
 
-Auth::routes(['verify' => true]);
+Auth::routes(['verify' => true],'ProjectController@index');
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
 

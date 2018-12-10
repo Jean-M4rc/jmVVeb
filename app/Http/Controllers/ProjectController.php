@@ -19,10 +19,14 @@ class ProjectController extends Controller
         $projects = $repository->getAll();
 
         return view('welcome', [
-            'projects'=>$projects,
+            'projects' => $projects,
         ]);
     }
 
+    /**
+     * Show the view for the project required
+     * And Keep the différents projects existing for navbar
+     */
     public function showBySlug($slug, ProjectRepository $repository)
     {
         $projects = $repository->getAll();
