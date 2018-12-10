@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Project;
 use App\Http\Requests\ProjectRequest;
 use App\Repositories\ProjectRepository;
+use Illuminate\Support\Facades\Storage;
 
 class ProjectController extends Controller
 {
@@ -37,7 +38,9 @@ class ProjectController extends Controller
      */
     public function store(ProjectRequest $request, ProjectRepository $repository)
     {
-        $repository->store($request->all());
+        $project = $repository->store($request->all());
+
+        Storage::put( $project->slug . '.blade.php', '/resources/views/projects/');
 
         return redirect()->route('welcome')->with('ok', __('Le projet a bien été ajouté'));
     }
