@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('welcome');
+Route::get('/', 'ProjectController@index')->name('welcome');
 
 Auth::routes(['verify' => true]);
 
@@ -24,3 +22,5 @@ Route::middleware('admin')->group(function () {
         'except' => 'show'
     ]);
 });
+
+Route::name('project')->get('projects/{slug}', 'ProjectController@showBySlug');

@@ -14,9 +14,22 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(ProjectRepository $repository)
     {
-        //
+        $projects = $repository->getAll();
+
+        return view('welcome', [
+            'projects'=>$projects,
+        ]);
+    }
+
+    public function showBySlug($slug, ProjectRepository $repository)
+    {
+        $projects = $repository->getAll();
+
+        return view('projects/' . $slug , [
+            'projects'=>$projects,
+        ]);
     }
 
     /**

@@ -35,6 +35,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle
+                            @isset($project)
+                                {{ currentRoute(route('project', $project->slug)) }}
+                            @endisset
+                                " href="#" id="navbarDropdownCat" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            @lang('Projets')
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCat">
+                            @foreach($projects as $project)
+                                <a class="dropdown-item" href="{{ route('project', $project->slug) }}">{{ $project->name }}</a>
+                            @endforeach
+                        </div>
+                    </li>
                     @admin
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle{{ currentRoute(route('project.create'))}}" href="#" id="navbarDropdownGestCat" role="button" data-toggle="dropdown"
