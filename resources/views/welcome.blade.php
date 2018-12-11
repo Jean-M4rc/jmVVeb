@@ -10,6 +10,8 @@
 
     @include('partials.hardskills') 
     
+    @include('partials.contactfooter')
+
     @include('partials.footer')
 
 @endsection
