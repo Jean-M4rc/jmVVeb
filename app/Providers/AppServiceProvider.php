@@ -2,8 +2,9 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use App\Repositories\ProjectRepository;
 use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -26,6 +27,10 @@ class AppServiceProvider extends ServiceProvider
         Blade::if('admin', function () {
             return auth()->check() && auth()->user()->admin;
         });
-    }   
+
+        if (request()->server("SCRIPT_NAME") !== 'artisan') {
+            view()->share('projects', resolve(ProjectRepository::class)->getAll());
+        }
+    }
 
 }

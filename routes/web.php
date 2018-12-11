@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'ProjectController@index')->name('welcome');
+Route::get('/', function(){
+    return view('welcome');
+})->name('welcome');
 
 Auth::routes(['verify' => true],'ProjectController@index');
 
