@@ -7,6 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Sweetalert
+@import '~sweetalert2/src/sweetalert2.scss';
+
 @media screen and (max-width: 430px) {
 
     .diapos {
@@ -118,8 +121,8 @@ nav {
     border-bottom: solid 3px rgba(255, 242, 242, .3);
 }
 
-a,
-a:hover {
+.contactfooter,
+.contactfooter:hover {
     color: black;
     text-decoration: none;
 }

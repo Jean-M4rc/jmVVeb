@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+   
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -22,7 +22,6 @@
 </head>
 
 <body>
-    <div id="app">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="/favicon.ico" class="rounded" width="30" height="30" alt=""/>
@@ -113,19 +112,33 @@
         <main>
 
             @if (session('ok'))
-            <div class="container">
-                <div class="alert alert-dismissible alert-success fade show" role="alert">
-                    {{ session('ok') }}
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                <div class="container">
+                    <div class="alert alert-dismissible alert-success fade show" role="alert">
+                        {{ session('ok') }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
                 </div>
-            </div>
-            @endif @yield('content')
+            @endif 
+            
+            @yield('content')
 
         </main>
 
-    </div>
+        <script src="{{ asset('js/app.js') }}"></script>
+
+        @yield('script')
+
+        <script>
+            $(() => {
+                $('#logout').click((e) => {
+                    e.preventDefault()
+                    $('#logout-form').submit()
+                })
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 </body>
 
 </html>
