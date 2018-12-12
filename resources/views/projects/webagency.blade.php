@@ -55,7 +55,6 @@
         <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/WebAgency" class="alert-link" target="_blank">https://github.com/Jean-M4rc/WebAgency</a></p>
     </div>
     
-
 </div>
 
 @include('partials.footer')
