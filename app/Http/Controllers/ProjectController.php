@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Storage;
 
 class ProjectController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('ajax')->only('destroy');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -70,21 +75,24 @@ class ProjectController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Project $project)
     {
-        //
+        return view('projects.edit', compact('project'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(ProjectRequest $request, Project $project)
     {
-        //
+        dd($project);
+
+        //$project->update($request->all());
+
+        return redirect()->route('projects.index')->with('ok', __('Le projet a bien été modifié'));
     }
 
     /**
@@ -93,8 +101,9 @@ class ProjectController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Project $project)
     {
-        //
+        $project->delete();
+        return response()->json();
     }
 }
