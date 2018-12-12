@@ -88,11 +88,10 @@ class ProjectController extends Controller
      */
     public function update(ProjectRequest $request, Project $project)
     {
-        dd($project);
 
-        //$project->update($request->all());
+        $project->update($request->all());
 
-        return redirect()->route('projects.index')->with('ok', __('Le projet a bien été modifié'));
+        return redirect()->route('project.index')->with('ok', __('Le projet a bien été modifié'));
     }
 
     /**

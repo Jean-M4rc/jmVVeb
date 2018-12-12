@@ -23,7 +23,7 @@ class ProjectRequest extends FormRequest
      */
     public function rules()
     {
-        $id = $this->project ? ';' . $this->project->id : '';
+        $id = $this->project ? ',' . $this->project->id : '';
 
         return $rules = [
             'name' => 'required|string|max:255|unique:projects,name' . $id,
