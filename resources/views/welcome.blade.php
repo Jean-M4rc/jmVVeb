@@ -14,4 +14,6 @@
 
     @include('partials.footer')
 
+    @include('partials.script-carousel')
+
 @endsection

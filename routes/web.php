@@ -15,7 +15,7 @@ Route::get('/', function(){
     return view('welcome');
 })->name('welcome');
 
-Auth::routes(['verify' => true],'ProjectController@index');
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');;
 

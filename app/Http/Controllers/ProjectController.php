@@ -16,11 +16,7 @@ class ProjectController extends Controller
      */
     public function index(ProjectRepository $repository)
     {
-        $projects = $repository->getAll();
-
-        return view('welcome', [
-            'projects' => $projects,
-        ]);
+        return view('projects.index');
     }
 
     /**
