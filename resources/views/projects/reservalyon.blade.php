@@ -33,11 +33,33 @@
 
     <img class="shadow-lg rounded" src="/storage/projects/reservalyon6.jpg" alt="Réserva'Lyon" width="100%"/>
 
-    <p class="lead py-3">Concernant le code j'ai défini plusieurs objets.</p>
+    <p class="lead py-3">Concernant le code j'ai défini plusieurs objets :<br/><br/>Nous avons un objet qui représente le DOM et son animation. L'apparition du bloc de réservation, de la légende de la carte ou du bloc de réservation. Tout les mouvements du DOM sont dans cet objet.<br/>Un objet qui gère le message d'alerte (fin de réservation) et le canvas de signature.</p>
 
-    <p class="lead py-3">Nous avons un objet qui représente le DOM et son animation. L'apparition du bloc de réservation, du canvas de signature. Tout les mouvements du DOM sont dans cet objet.</p>
+    <div class="row">
 
-    <img class="shadow-lg rounded" src="/storage/projects/reservalyon5.jpg" alt="Réserva'Lyon" width="100%"/>
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon7.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Objet <span class="text-info">animDOM</span></figcaption>
+        </figure>
+
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon8.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Objet <span class="text-info">alert</span> qui gère les alertes et le canvas de signature</figcaption>
+        </figure>
+        
+    </div>
+
+    <img class="shadow-lg rounded col-12 col-md-6" src="/storage/projects/reservalyon9.jpg" alt="Réserva'Lyon" width="100%"/>
 
 
+    <div class="alert alert-success my-3">
+
+        <p class="lead py-3">Vous pouvez trouver ce projet à l'adresse suivante : <a href="" class="alert-link">http://reservalyon.jmvveb.fr.</a></p>
+
+        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/Reservalyon" class="alert-link" target="_blank">https://github.com/Jean-M4rc/Reservalyon</a></p>
+
+    </div>
+    
 </div>
+
+@include('partials.footer')

@@ -28,12 +28,12 @@
     <div class="row">
 
         <figure class="col-12 col-md-6">
-            <img class="rounded" src="/storage/projects/strasbourg4.jpg" alt="WebAgency" width="100%"/>
+            <img class="rounded" src="/storage/projects/strasbourg4.jpg" alt="Strasbourg" width="100%"/>
             <figcaption>Formulaire de contact</figcaption>
         </figure>
 
         <figure class="col-12 col-md-6">
-            <img class="rounded" src="/storage/projects/strasbourg5.jpg" alt="WebAgency" width="100%"/>
+            <img class="rounded" src="/storage/projects/strasbourg5.jpg" alt="Strasbourg" width="100%"/>
             <figcaption>Vue avec constraste élevé et police plus grande</figcaption>
         </figure>
         
