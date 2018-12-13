@@ -44,13 +44,42 @@
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon8.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Objet <span class="text-info">alert</span> qui gère les alertes et le canvas de signature</figcaption>
+            <figcaption class="bg-dark text-white">Objet <span class="text-info">alert</span></figcaption>
         </figure>
         
     </div>
 
-    <img class="shadow-lg rounded col-12 col-md-6" src="/storage/projects/reservalyon9.jpg" alt="Réserva'Lyon" width="100%"/>
+    <p class="lead py-3">Le carousel de présentation est codé avec la librairie jQuery, il est sensible au clique sur les chevrons et aux touches fléchées (gauche et droite) du clavier.<br/>Le timer fixe la date de fin de réservation, le décompte se fait en comptant le temps restant toutes les secondes. Cette manière de procéder nous permet de rafraichir la page, et dans notre cas (localstorage) de fermer le navigateur sans perdre le timer lorsque l'on reviens sur le site quelques minutes plus tard.</p>
 
+    <div class="row">
+
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon11.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Animation du Diaporama</span></figcaption>
+        </figure>
+
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon10.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Objet <span class="text-info">timer</span></figcaption>
+        </figure>
+        
+    </div>
+
+    <p class="lead py-3">Enfin nous avons un objet qui gère la gestion des informations des stations pour le bloc d'information et pour les données sauvegardées lors de la réservation.<br/>Enfin nous testons dans le localstorage l'existance de l'objet "station" pour afficher la réservation en cours.</p>
+
+    <div class="row">
+
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon9.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Objet <span class="text-info">etatStat</span></figcaption>
+        </figure>
+        
+        <figure class="col-12 col-md-6">
+            <img class="rounded-top" src="/storage/projects/reservalyon12.jpg" alt="Réserva'Lyon" width="100%"/>
+            <figcaption class="bg-dark text-white">Sauvegarde de la réservation en local</span></figcaption>
+        </figure>
+        
+    </div>
 
     <div class="alert alert-success my-3">
 
