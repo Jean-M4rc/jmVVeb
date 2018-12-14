@@ -17,7 +17,7 @@
 
     <p class="lead py-3">Pour améliorer l'expérience utilisateur (UX) et rendre le traitement de l'information plus efficace j'ai mis en place différentes icônes pour traduire l'état de la station de location directement à l'affcihage sans devoir cliquer dessus. Avec ce système l'utilisateur peut rapidement voir si la station qui l'intéresse est vide, pleine ou hors service.</p>
 
-    <p class="lead py-3">L'API de JCDecaux actualise ses données toutes les 2 minutes ce qui permet d'avoir un état "en temps réel" des stations. La requête est faite en AJAX et la réponse est un fichier JSON contenant toutes les informations demandées. Ensuite je transforme se JSON en icône suivant l'information reçu, je récupère le nom de la station et sa géolocalisation ce qui me permet d'ajouter les marqueurs sur la carte. Aussi j'utilise l'aggrégateur de marqueurs de Goggle (MarkerClusterer) pour regrouper les marqueurs suivants le zoom de la carte.</p>
+    <p class="lead py-3">L'API de JCDecaux actualise ses données toutes les 2 minutes ce qui permet d'avoir un état "en temps réel" des stations. La requête est faite en AJAX et la réponse est un fichier JSON contenant toutes les informations demandées. Ensuite je transforme ce JSON en icône suivant l'information reçu, je récupère le nom de la station et sa géolocalisation ce qui me permet d'ajouter les marqueurs sur la carte. Aussi j'utilise l'aggrégateur de marqueurs de Goggle (MarkerClusterer) pour regrouper les marqueurs suivants le zoom de la carte.</p>
 
     <img class="shadow-lg rounded" src="/storage/projects/reservalyon3.jpg" alt="Réserva'Lyon" width="100%"/>
 
@@ -27,13 +27,13 @@
 
     <img class="shadow-lg rounded" src="/storage/projects/reservalyon4.jpg" alt="Réserva'Lyon" width="100%"/>
 
-    <p class="lead py-3">La signature est mémorisé et un timer démarre pour rendre la réservation effective pendant 20 minutes.</p>
+    <p class="lead py-3">La signature est mémorisée et un timer démarre pour rendre la réservation effective pendant 20 minutes.</p>
 
     <p class="lead py-3">L'utilisateur peut libérer la réservation à tout moment.</p>
 
     <img class="shadow-lg rounded" src="/storage/projects/reservalyon6.jpg" alt="Réserva'Lyon" width="100%"/>
 
-    <p class="lead py-3">Concernant le code j'ai défini plusieurs objets :<br/><br/>Nous avons un objet qui représente le DOM et son animation. L'apparition du bloc de réservation, de la légende de la carte ou du bloc de réservation. Tout les mouvements du DOM sont dans cet objet.<br/>Un objet qui gère le message d'alerte (fin de réservation) et le canvas de signature.</p>
+    <p class="lead py-3">Concernant le code j'ai défini plusieurs objets :<br/><br/>Nous avons un objet qui représente le DOM et son animation. L'apparition du bloc d'informations, de la légende de la carte ou du bloc de réservation. Tout les mouvements du DOM sont dans cet objet.<br/>Un objet qui gère le message d'alerte (fin de réservation) et le canvas de signature.</p>
 
     <div class="row">
 
@@ -49,7 +49,7 @@
         
     </div>
 
-    <p class="lead py-3">Le carousel de présentation est codé avec la librairie jQuery, il est sensible au clique sur les chevrons et aux touches fléchées (gauche et droite) du clavier.<br/>Le timer fixe la date de fin de réservation, le décompte se fait en comptant le temps restant toutes les secondes. Cette manière de procéder nous permet de rafraichir la page, et dans notre cas (localstorage) de fermer le navigateur sans perdre le timer lorsque l'on reviens sur le site quelques minutes plus tard.</p>
+    <p class="lead py-3">Le carousel de présentation est codé avec la librairie jQuery, il est sensible au clic sur les chevrons et aux touches fléchées (gauche et droite) du clavier.<br/>Le timer fixe la date de fin de réservation, le décompte se fait en comptant le temps restant toutes les secondes. Cette manière de procéder nous permet de rafraîchir la page, et dans notre cas (localstorage) de fermer le navigateur sans perdre le timer lorsque l'on reviens sur le site quelques minutes plus tard.</p>
 
     <div class="row">
 
@@ -76,7 +76,7 @@
         
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon12.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Sauvegarde de la réservation en local</span></figcaption>
+            <figcaption class="bg-dark text-white">Test de la présence d'une réservation en local</span></figcaption>
         </figure>
         
     </div>
