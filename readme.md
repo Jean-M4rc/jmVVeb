@@ -9,7 +9,7 @@
 
 ## Bienvenue
 
-Bienvenue sur le git de mon site portfolio, mon site vitrine. Ce site a pour but de montrer mes compétences en terme de code, en toute transparence. Je suis un développeur junior et j'imagine que beaucoup de développeur expérimentés trouveront dans mon code mille et une faute grossière. J'espère néanmoins en faire le moins possible et par la publication de mon code je me soumet à toute remarque constructive. Ce site à pour but :
+Bienvenue sur le git de mon site portfolio, mon site vitrine. Ce site a pour but de montrer mes compétences en terme de code, en toute transparence. Je suis un développeur junior et j'imagine que beaucoup de développeur expérimentés trouveront dans mon code mille et une fautes grossières. J'espère néanmoins en faire le moins possible et par la publication de mon code je me soumet à toute remarque constructive. Ce site à pour but :
 
 - Me présenter, mon état d'esprit, mes aspirations personnelles et professionnelles.
 - Présenter mes projets, tout ce que j'ai réaliser depuis que j'ai découvert les langages du web.
