@@ -50,9 +50,9 @@
 
     <div class="alert alert-success my-3">
 
-        <p class="lead py-3">Vous pouvez trouver ce projet à l'adresse suivante : <a href="" class="alert-link">http://webagency.jmvveb.fr.</a></p>
+        <p class="lead py-3">Vous pouvez trouver ce projet à l'adresse suivante : <a href="http://webagency.jmvveb.fr" class="alert-link" target="_blank" rel="noopener noreferrer">http://webagency.jmvveb.fr.</a></p>
 
-        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/WebAgency" class="alert-link" target="_blank">https://github.com/Jean-M4rc/WebAgency</a></p>
+        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/WebAgency" class="alert-link" target="_blank" rel="noopener noreferrer">https://github.com/Jean-M4rc/WebAgency</a></p>
     </div>
     
 </div>
