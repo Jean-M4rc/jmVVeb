@@ -41,7 +41,7 @@
 
     <div class="alert alert-success my-3">
 
-        <p class="lead">Vous pouvez trouver ce projet à l'adresse suivante : <a href="http://strasbourgcity.code-one.fr/" class="alert-link" target="_blank">http://strasbourgcity.code-one.fr</a></p>
+        <p class="lead">Ce site est malheureusement indisponible actuellement.</p>
     
     </div>
 
