@@ -85,7 +85,7 @@
 
         <p class="lead py-3">Vous pouvez trouver ce projet à l'adresse suivante : <a href="" class="alert-link">http://reservalyon.jmvveb.fr.</a></p>
 
-        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/Reservalyon" class="alert-link" target="_blank">https://github.com/Jean-M4rc/Reservalyon</a></p>
+        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/Reservalyon" class="alert-link" rel="noopener noreferrer" target="_blank">https://github.com/Jean-M4rc/Reservalyon</a></p>
 
     </div>
     
