@@ -21,7 +21,7 @@
 	<a id="carouselLeft" class="carousel-control carousel-control-prev" role="button">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
-  	</a>
+	</a>
 	
 
 	<a id="carouselRight" class="carousel-control carousel-control-next" role="button">

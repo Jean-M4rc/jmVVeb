@@ -39,12 +39,12 @@
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon7.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Objet <span class="text-info">animDOM</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Objet <span class="text-info">animDOM</span></figcaption>
         </figure>
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon8.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Objet <span class="text-info">alert</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Objet <span class="text-info">alert</span></figcaption>
         </figure>
         
     </div>
@@ -55,12 +55,12 @@
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon11.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Animation du Diaporama</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Animation du Diaporama</span></figcaption>
         </figure>
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon10.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Objet <span class="text-info">timer</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Objet <span class="text-info">timer</span></figcaption>
         </figure>
         
     </div>
@@ -71,12 +71,12 @@
 
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon9.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Objet <span class="text-info">etatStat</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Objet <span class="text-info">etatStat</span></figcaption>
         </figure>
         
         <figure class="col-12 col-md-6">
             <img class="rounded-top" src="/storage/projects/reservalyon12.jpg" alt="Réserva'Lyon" width="100%"/>
-            <figcaption class="bg-dark text-white">Test de la présence d'une réservation en local</span></figcaption>
+            <figcaption class="bg-dark text-white rounded-bottom">Test de la présence d'une réservation en local</span></figcaption>
         </figure>
         
     </div>

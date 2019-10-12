@@ -8,7 +8,7 @@
 
         <div class="d-flex justify-content-around flex-wrap">
                 
-            <figure><a class="contactfooter" href="https://www.linkedin.com/in/jean-marc-voisin-622b09152/" target="_blank">                
+            <figure><a class="contactfooter" href="https://www.linkedin.com/in/jean-marc-voisin-622b09152/" target="_blank" rel="noopener noreferrer">                
                 <img src="/storage/icones/Linkedin.svg" alt="LinkedIn" style="width:10rem;">
                 <figcaption class="h4 text-center font-weight-bold pt-2">Mon LinkedIn</figcaption>
             </a></figure>

@@ -97,16 +97,14 @@ var carouselMaster = {
 	},
 
 	nextDiapos: function(){
-		 if(coolDown>=1)
-		 {
-		 	if(nextDiapo===0)
-		 	{
-		 		roll.min();
-		 		nextDiapo=5;
-		 	}
-		 	else
-		 		nextDiapo--;
-		 }
+		if (coolDown>=1) {
+			if(nextDiapo===0) {
+				roll.min();
+				nextDiapo=5;
+			} else {
+				nextDiapo--;
+			}
+		}
 	}
 }
 
@@ -139,12 +137,9 @@ document.addEventListener("keydown", function(e){
 		nextDiapo=5;
 		if(coolDown>=1)
 		{
-			if(e.keyCode==37)
-	    	{
+			if(e.keyCode==37) {
 	    		roll.plus();
-	    	}
-	    	else if(e.keyCode==39)
-	    	{
+	    	} else if(e.keyCode==39) {
 	    		roll.min();
 	    	}
 	    }

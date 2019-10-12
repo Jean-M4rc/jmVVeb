@@ -23,6 +23,5 @@
             @endcomponent
         </form>
 
-    @endcomponent  
-              
+    @endcomponent 
 @endsection
