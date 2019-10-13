@@ -45,16 +45,12 @@
     </div>
 
     <p class="lead py-3">Enfin j’ai intégré un simple formulaire de contact (non-fonctionnel) ainsi qu’une localisation grâce à un iframe de Google Map.</p>
-
-    <img class="shadow-lg rounded" src="/storage/projects/webagency6.png" alt="WebAgency" width="100%"/>
-
+    <figure>
+        <img class="shadow-lg rounded" src="/storage/projects/webagency6.png" alt="WebAgency" width="100%"/>
+    </figure>
     <div class="alert alert-success my-3">
-
-        <p class="lead py-3">Vous pouvez trouver ce projet à l'adresse suivante : <a href="http://webagency.jmvveb.fr" class="alert-link" target="_blank" rel="noopener noreferrer">http://webagency.jmvveb.fr.</a></p>
-
-        <p class="lead py-3">Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/WebAgency" class="alert-link" target="_blank" rel="noopener noreferrer">https://github.com/Jean-M4rc/WebAgency</a></p>
+        <p class="lead">Vous pouvez trouver ce projet à l'adresse suivante : <a href="http://webagency.jmvveb.fr" class="alert-link" target="_blank" rel="noopener noreferrer">http://webagency.jmvveb.fr.</a><br>Et le code source du site sur GitHub à l'adresse suivante : <a href="https://github.com/Jean-M4rc/WebAgency" class="alert-link" target="_blank" rel="noopener noreferrer">https://github.com/Jean-M4rc/WebAgency</a></p>
     </div>
-    
 </div>
 
 @include('partials.footer')
